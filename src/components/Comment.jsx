@@ -5,11 +5,11 @@ import styles from './Comment.module.css'
 
 export function Comment(){
     return(
-     <div className={styles.Comment}>
+     <div className={styles.comment}>
            <img src="https://github.com/erikpolsci.png"/> 
 
-         <div className={styles.CommentBox}>
-            <div className={styles.CommentContent}>
+         <div className={styles.commentBox}>
+            <div className={styles.commentContent}>
                 <header>
                 <div className={styles.authorAndTime}>
                     <strong>Erik Sales</strong>
@@ -18,7 +18,7 @@ export function Comment(){
                 </div>
 
                 <button title='excluir comentario'>
-                    <Trash size={20}/>
+                    <Trash size={24}/>
                 </button>
                 </header>
                 <p>
